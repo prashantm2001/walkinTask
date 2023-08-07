@@ -1,0 +1,30 @@
+@font-face {
+    font-family: "Quicksand Regular";
+    src:local("Quicksand Regular"), url("../assets/fonts/Quicksand-Regular.ttf");
+}
+@font-face {
+    font-family: "Quicksand Bold";
+    src:local("Quicksand Bold"), url("../assets/fonts/Quicksand-Bold.ttf");
+}
+@font-face {
+    font-family: "Quicksand Regular";
+    src: local("Quicksand Regular"),url("../assets/fonts/Quicksand-Medium.ttf");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand Regular";
+}
+
+.main{
+    background-color: #EEEEEE;
+    min-height: 100vh;
+    width: 100%;
+    color: #222222;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
