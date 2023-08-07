@@ -1,0 +1,80 @@
+.card{
+    border-top: solid 4px #3AC7EC;
+    background-color: #FFFFFF;
+    height: 419px;
+    width: 488px;
+    padding: 20px 32px;
+    font-size: 24px;
+}
+input{
+    accent-color: #3FD28B;
+}
+    .title{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 34px;
+    }
+    .input{
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        margin-bottom: 32px;
+    }
+        .input input{
+            height: 30px;
+            width: 100%;
+            border: 0 ;
+            border-bottom: solid 1px #000000;
+            font-size: 16px;
+            color: #666666;
+        }
+        .input p{
+            font-size: 14px;
+            margin: 5px 0;
+            color: #1F7A54;
+        }
+    .checkbox{
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+    }
+        .checkout input {
+            margin-right: 5px;
+            height: 18px;
+            width: 18px;
+        }
+        .checkbox label{
+            padding-left: 5px;
+        }
+    .button{
+        width: 100%;
+        margin-top:24px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+button{
+    background-color: #3FD28B;
+    color: #1F2834;
+    font-size: 14px;
+    width: 216px;
+    height: 40px;
+    border: 0;
+}
+
+.create{
+    padding-top: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.create p {
+    font-size: 12px;
+}
+.create h1{
+    font-size: 14px;
+    color: #3FD28B;
+    text-transform: uppercase;
+    font-family: "Quicksand Medium";
+}
