@@ -1,7 +1,12 @@
+.card-cointainer{
+    height: calc(100vh - 56px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .card{
     border-top: solid 4px #3AC7EC;
     background-color: #FFFFFF;
-    height: 419px;
     width: 488px;
     padding: 20px 32px;
     font-size: 24px;
@@ -21,6 +26,14 @@ input{
         margin-bottom: 32px;
     }
         .input input{
+            height: 30px;
+            width: 100%;
+            border: 0 ;
+            border-bottom: solid 1px #000000;
+            font-size: 16px;
+            color: #666666;
+        }
+        .label-input input{
             height: 30px;
             width: 100%;
             border: 0 ;
@@ -72,9 +85,12 @@ button{
 .create p {
     font-size: 12px;
 }
-.create h1{
+.create .link{
     font-size: 14px;
     color: #3FD28B;
     text-transform: uppercase;
     font-family: "Quicksand Medium";
+}
+a{
+    text-decoration: none;
 }

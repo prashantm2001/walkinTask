@@ -9,7 +9,9 @@ const App = () =>{
   return (
     <div className='main'>
       <Header/>
+      <div className='cointainer'>
         <Outlet/>
+      </div>
     </div>
   )
 }

@@ -1,0 +1,139 @@
+.registration-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 48px;
+    background-color: #3C4E62;
+    padding: 0 24PX;
+}
+.registration-top div{
+    color:#FFFFFF;
+}
+.registration button{
+    height: 28px;
+    width: 90px;
+    margin-right: 16px;
+    border-radius: 2px;
+}
+.progress-bar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+    height:56px;
+    padding: 12px 16px;
+    margin:24px;
+}
+.progress-bar div{
+    display:flex;
+    align-items: center;
+}
+.progress{
+    height:32px;
+    width: 32px;
+    border-radius: 50%;
+    background-color: #3FD28B;
+    display:flex;
+    justify-content: center;
+    margin-right:8px;
+}
+.registration-cointainer{
+    padding: 0 24px;
+}
+.personal-card{
+    background-color: #FFFFFF;
+    padding: 24px;
+    margin-bottom: 24px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.personal-left{
+    display: flex;
+    justify-content: end;
+}
+.label-input label{
+    color: #666666;
+    font-size: 12px;
+}
+.label-input{
+    margin-bottom: 40px;
+}
+.checkboxes{
+    margin-bottom: 40px;
+}
+.checkboxes p{
+    font-size: 12px;
+    color: #666666;
+}
+.checkboxes div{
+    font-size: 16px;
+    margin-top: 18px;
+}
+.checkboxes label{
+    margin-left: 9px;
+}
+.personal-left div{
+    margin-bottom: 10px;
+    margin-top: 16px;
+    font-size: 12px;
+    color: #1F7A54;
+}
+.personal-left p{
+    font-size: 10px;
+}
+.account-pic{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.register-buttons{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-top: 32px;
+}
+.qualification-card{
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+}
+.fifty{
+    width: 50%;
+    padding: 0px 24px;
+}
+.twenty{
+    width: 25%;
+    padding: 0px 24px;
+}
+.blue-header{
+    background-color: #DBEFFF;
+    padding: 16px;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+.educational-qualification{
+    padding-top:24px
+}
+.qualification-card .checkboxes{
+    margin-top: 24px;
+    margin-left: 24px;
+}
+.pt-24{
+    padding-top: 24px;
+}
+.pr-24{
+    padding-right: 24px;
+}
+.review h1{
+    font-size: 16px;
+    margin-top: 12px;
+}
+.upload-div h1{
+    margin-top: 0px;
+    margin-left: 12px;
+}

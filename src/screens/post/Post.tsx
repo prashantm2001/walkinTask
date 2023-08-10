@@ -1,11 +1,13 @@
+import Post from '../../components/card/Post'
 import './styles.css'
 
-const Post = () =>{
+const PostPage = () =>{
   return (
     <div>
-      hello world
+      PostPage
+      <Post post={true}/>
     </div>
   )
 }
 
-export default Post
+export default PostPage

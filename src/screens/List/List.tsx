@@ -1,9 +1,12 @@
+import Post from '../../components/card/Post'
 import './styles.css'
 
 const List = () =>{
   return (
     <div>
-      List
+      <Post/>
+      <Post/>
+      <Post/>
     </div>
   )
 }

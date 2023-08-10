@@ -5,14 +5,14 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import Post from './screens/post/Post.tsx';
+import PostPage from './screens/post/Post.tsx';
 import Login from './screens/login/Login.tsx';
 import Success from './screens/success/Success.tsx';
 import Personal from './screens/registration/Personal.tsx';
 import Qualification from './screens/registration/Qualifications.tsx';
 import Review from './screens/registration/Review.tsx';
 import Error from './screens/Error/Error.tsx';
-import Registration from './screens/registration/Personal copy.tsx';
+import Registration from './screens/registration/Registration.tsx';
 import List from './screens/List/List.tsx';
 
 const router = createBrowserRouter([
@@ -27,7 +27,7 @@ const router = createBrowserRouter([
         },
         {
           path: "/post",
-          element: <Post />,
+          element: <PostPage />,
         },
         {
           path: "/Login",
@@ -38,7 +38,7 @@ const router = createBrowserRouter([
           element: <Success />,
         },
         {
-          path: "/registration/",
+          path: "/register/",
           element: <Registration />,
           children: [
             {
@@ -46,7 +46,7 @@ const router = createBrowserRouter([
               element: <Personal />,
             },
             {
-              path: "qualifiacation",
+              path: "qualification",
               element: <Qualification />,
             },
             {

@@ -1,7 +1,9 @@
+import { Link } from 'react-router-dom'
 import './styles.css'
 
 const Login = () =>{
   return (
+   <div className='card-cointainer'>
     <div className="card">
          <div className="title">
             <div>Log in</div>
@@ -19,12 +21,13 @@ const Login = () =>{
             <label htmlFor="remember">Remember me</label>
          </div>
          <div className="button">
-            <button>LOG IN</button>
+            <Link to="/"><button>LOG IN</button></Link>
          </div>
          <div className='create'>
           <p>Not registered yet?</p>
-          <h1>create an account</h1>
+          <Link className='link' to="/Register/personal">create an account</Link>
          </div>
+      </div>
       </div>
   )
 }
